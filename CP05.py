@@ -89,7 +89,7 @@ def listar_alunos():
 def estatisticas_turma():
     print("=" * 30, "ESTATÍSTICAS DA TURMA", "=" * 30)
 
-    if len(alunos) < 2:
+    if len(alunos) == 0 : return
         print("Cadastre pelo menos 2 alunos.")
         return
 
