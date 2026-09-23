@@ -68,7 +68,7 @@ def cadastrar_aluno():
 
 
 def listar_alunos():
-    print("=" * 30, "ALUNOS CADASTRADOS""=" * 30)
+    print("=" * 30, "ALUNOS CADASTRADOS","=" * 30) 
 
     if len(alunos) == 0:
         print("Nenhum aluno cadastrado.")
